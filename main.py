@@ -1,7 +1,7 @@
 import openai 
 
 def askGPT(text):
-  openai.api_key = ""
+  openai.api_key = "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"
   response = openai.Completion.create(
     engine = "text-davinci-003",
     prompt = text,
